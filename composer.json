@@ -1,0 +1,25 @@
+{
+    "name": "vojtechrichter/flare",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Flare\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "vojtechrichter",
+            "email": "vojta3218@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.3",
+        "psr/http-server-handler": "^1.0"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^2.1"
+    },
+    "scripts": {
+        "phpstan": "vendor/bin/phpstan analyse -l 9 src"
+    }
+}
